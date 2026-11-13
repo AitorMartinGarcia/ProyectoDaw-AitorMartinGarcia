@@ -114,8 +114,6 @@ Frente a otras opciones Tenno Helper sera una aplicacion que reunira difernetes 
 
 ## 8. Glosario
 
-*Una cosa, un nombre: define los términos del dominio y de tu proyecto, y anota los sinónimos que **no** vas a usar en ningún documento. Con **5 términos** basta; crece con el proyecto.*
-
 | Término | Definición | Sinónimos que NO uso |
 |---|---|---|
 | Tenno Helper | Aplicación web que reúne diferentes herramientas y funcionalidades de ayuda para los jugadores de Warframe. | Tenno Tools, Warframe Helper, TH | 
