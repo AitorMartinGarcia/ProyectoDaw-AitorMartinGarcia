@@ -17,7 +17,8 @@ Dentro del sector encontramos diferentes empresas/proyectos como:
 |AlecaFrame|Aplicacion independiente integrada en Overwolf| Gestion de inventario, seguimiento de fabricacion, reliquias y estadisticas|
 
 ornanigrama:
-flowchart TD
+```mermaid
+graph TD
     A["Dirección general"]
 
     A --> B["Departamento de desarrollo"]
@@ -41,7 +42,7 @@ flowchart TD
 
     F --> F1["Gestión económica"]
     F --> F2["Facturación y administración"]
-
+```
 
 ## 2. Necesidades y oportunidades (CE 1c, 1d)
 | Prioridad | Necesidad | Fuente |
