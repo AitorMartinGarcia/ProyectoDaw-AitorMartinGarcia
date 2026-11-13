@@ -44,14 +44,21 @@ flowchart TD
 
 
 ## 2. Necesidades y oportunidades (CE 1c, 1d)
-
-*Lista **priorizada** de las necesidades más demandadas, con el criterio de priorización y la fuente. Valora las oportunidades de negocio con **al menos un dato cuantitativo** y su fuente.*
-
 | Prioridad | Necesidad | Fuente |
-||||
+|---|---|---|
+| Muy Alta | Consultar donde conseguir armas, warframes, y recursos | https://wiki.warframe.com/?utm_source=chatgpt.com |
+| Muy Alta | Gestionar el inventario personal | https://alecaframe.com/?utm_source=chatgpt.com |
+| Alta | Consultar probabilidades de obtencion de objetos | https://www.warframe.com/droptables?utm_source=chatgpt.com |
+| Alta | Crear y guardar consfiguariones de equipamiento | https://overframe.gg/?utm_source=chatgpt.com |
+| Baja | Facilitar comercio entre jugadores | https://warframe.market/?utm_source=chatgpt.com |
+
+Siendo que hay varias herramientas comunitarias demuestra el interes de la comunidad en disponer de estos servicios complementarios, siendo que segun Steam Charts se registro una media de 60.730 jugadores simultaneos en steam https://steamcharts.com/app/230410?utm_source=chatgpt.com
+
 ## 3. Tipo de proyecto elegido (CE 1e)
 
-*Qué proyecto das como respuesta y por qué, frente a otras alternativas.*
+Tenno Hellper sera una aplicacion web que agrupe las funciones de diferentes herramientas existentes del videojuego warframe la cual permitira a los usuarios consultar un catalogo de objetos, getsion de inventario, conocer fuentes y probabilidades de obtencion, realizar un seguimiento de objetos pendientes y crear y guardar builds.
+
+Frente a otras opciones Tenno Helper sera una aplicacion que reunira difernetes funciones existentes esparcidas en diferentes aplicaciones web siendo una solucion completa frente al resto de herramientas comunitarias que desarrollan una unica funcion.
 
 ## 4. Requisitos y restricciones (CE 1f)
 
@@ -61,9 +68,24 @@ flowchart TD
 
 | ID | Requisito | Tipo (funcional / no funcional / restricción) | Cómo se verifica |
 |---|---|---|---|
-| RF-01 | [RELLENAR] | funcional | |
-| RNF-01 | [RELLENAR] | no funcional | |
-| REST-01 | [RELLENAR] | restricción | |
+| RF-01 | El sistema permitirá registrar usuarios e iniciar y cerrar sesión. | funcional | Crear una cuenta de prueba y comprobar el inicio y cierre de sesión. |
+| RF-02 | El sistema mostrará un catálogo de armas, Warframes, mods y recursos. | funcional | Comprobar que aparecen las diferentes categorías y sus objetos. |
+| RF-03 | El sistema permitirá consultar las fuentes y probabilidades de obtención de los objetos. | funcional | Consultar diferentes objetos y comprobar la información mostrada. |
+| RF-04 | El sistema permitirá añadir, modificar y eliminar objetos del inventario personal. | funcional | Realizar las operaciones y comprobar los cambios. |
+| RF-05 | El sistema permitirá marcar objetos pendientes y consultar los recursos que faltan para conseguirlos. | funcional | Añadir un objeto al seguimiento y comprobar sus requisitos. |
+| RF-06 | El sistema permitirá crear, guardar y eliminar configuraciones de equipamiento (builds). | funcional | Crear una build, guardarla, recuperarla y eliminarla. |
+| RNF-01 | La aplicación deberá adaptarse a ordenadores, tabletas y móviles. | no funcional | Probar la interfaz a 375 px, 768 px y 1366 px. |
+| RNF-02 | Las consultas habituales deberán responder en menos de 2 segundos en condiciones normales. | no funcional | Medir los tiempos de respuesta. |
+| RNF-03 | Las contraseñas deberán almacenarse mediante funciones de hash seguras. | no funcional | Comprobar que no se almacenan contraseñas en texto plano. |
+| RNF-04 | La navegación permitirá acceder a las funcionalidades principales en un máximo de 3 interacciones desde el menú principal. | no funcional | Realizar pruebas de navegación. |
+| RNF-05 | La información externa mostrará su procedencia y fecha de actualización cuando estén disponibles. | no funcional | Comprobar diferentes fichas de objetos. |
+| REST-01 | La primera versión deberá estar terminada antes del 31 de marzo de 2027. | restricción | Comprobar la fecha de entrega. |
+| REST-02 | Se utilizarán HTML5, CSS3, JavaScript, PHP y MySQL como tecnologías principales. | restricción | Revisar el código fuente. |
+| REST-03 | Se utilizarán exclusivamente datos ficticios durante el desarrollo y las pruebas. | restricción | Revisar los registros de la base de datos. |
+| REST-04 | La aplicación será independiente de Digital Extremes y no modificará datos del videojuego. | restricción | Revisar las integraciones implementadas. |
+| REST-05 | El proyecto utilizará herramientas y servicios gratuitos. | restricción | Comprobar los costes de los servicios utilizados. |
+| REST-06 | El chat y el comercio entre jugadores quedarán fuera de la primera versión. | restricción | Comprobar las funcionalidades implementadas. |
+
 
 ### Matriz de trazabilidad
 
