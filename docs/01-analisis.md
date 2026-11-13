@@ -10,6 +10,7 @@ En este paso dentro de warframe existe una comunidad que desarrolla y mantiene d
 Dentro del sector encontramos diferentes empresas/proyectos como:
 
 |Empresa o Proyecto | Caracteristicas organizativas | Porducto o servicio|
+|---|---|---|
 |Digital Extremes| Empresa desarrolladora de videojuegos| Warframe, Warframe companion|
 |Overframe|Proyecto comunitario especializado en warframe|Creacion, consulta, y publicaciond e builds|
 |Warframe market| Plataforma comunitaria orientada al comercio entre jugadores| Consulta de precios y ofertas de comercio|
