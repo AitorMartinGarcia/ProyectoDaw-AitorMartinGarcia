@@ -63,10 +63,6 @@ Frente a otras opciones Tenno Helper sera una aplicacion que reunira difernetes 
 
 ## 4. Requisitos y restricciones (CE 1f)
 
-*Características que debe cumplir el proyecto, redactadas de forma **verificable** (no «debe ser rápido», sino «responde en menos de 2 s»). Parte de lo que has encontrado en [`01b-sota.md`](01b-sota.md).*
-
-> **Guía.** Numera los requisitos **funcionales** como **RF-01, RF-02…** (qué hace el sistema) y los **no funcionales** como **RNF-01…** (cómo lo hace: rendimiento, seguridad, usabilidad, disponibilidad, accesibilidad). Las **restricciones** (plazo, presupuesto, tecnología obligatoria, normativa) como **REST-01…**. Cada requisito debe tener **una medida o una prueba**. Si aún no sabes cómo lo probarás, escribe «pendiente» y complétalo antes de H3.
-
 | ID | Requisito | Tipo (funcional / no funcional / restricción) | Cómo se verifica |
 |---|---|---|---|
 | RF-01 | El sistema permitirá registrar usuarios e iniciar y cerrar sesión. | funcional | Crear una cuenta de prueba y comprobar el inicio y cierre de sesión. |
@@ -90,13 +86,19 @@ Frente a otras opciones Tenno Helper sera una aplicacion que reunira difernetes 
 
 ### Matriz de trazabilidad
 
-*Une cada objetivo con sus requisitos, y estos con lo que los implementa y los comprueba. Se rellena por completo al final del proyecto; en H1 basta con **objetivo y requisito**.*
-
-> **Guía.** Ejemplo ficticio: *OBJ-01 Gestionar citas → RF-02 Crear una cita → CU-03 → `POST /citas` → prueba P-07.* Cada RF y cada RNF de la tabla anterior debe aparecer aquí.
-
 | Objetivo | Requisito | Caso de uso | Pantalla o endpoint | Prueba o indicador |
 |---|---|---|---|---|
-| OBJ-01 [RELLENAR] | RF-01 | | | pendiente |
+| OBJ-01 Gestionar el acceso de los usuarios. | RF-01 | pendiente | pendiente | pendiente |
+| OBJ-02 Consultar el catálogo de objetos del juego. | RF-02 | pendiente | pendiente | pendiente |
+| OBJ-03 Consultar las fuentes y probabilidades de obtención. | RF-03 | pendiente | pendiente | pendiente |
+| OBJ-04 Gestionar el inventario personal. | RF-04 | pendiente | pendiente | pendiente |
+| OBJ-05 Realizar seguimiento de objetos pendientes. | RF-05 | pendiente | pendiente | pendiente |
+| OBJ-06 Crear y gestionar configuraciones de equipamiento. | RF-06 | pendiente | pendiente | pendiente |
+| OBJ-07 Garantizar la adaptación a diferentes dispositivos. | RNF-01 | pendiente | pendiente | pendiente |
+| OBJ-08 Garantizar tiempos de respuesta adecuados. | RNF-02 | pendiente | pendiente | pendiente |
+| OBJ-09 Proteger las credenciales de los usuarios. | RNF-03 | pendiente | pendiente | pendiente |
+| OBJ-10 Facilitar la navegación por la aplicación. | RNF-04 | pendiente | pendiente | pendiente |
+| OBJ-11 Garantizar la procedencia y actualización de la información. | RNF-05 | pendiente | pendiente | pendiente |
 
 ## 5. Obligaciones fiscales, laborales y de prevención (CE 1g)
 
