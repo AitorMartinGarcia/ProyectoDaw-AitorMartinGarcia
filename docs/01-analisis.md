@@ -17,37 +17,29 @@ Dentro del sector encontramos diferentes empresas/proyectos como:
 
 ornanigrama:
 flowchart TD
-    A["DIRECCIÓN GENERAL<br/>Planificación, coordinación y toma de decisiones"]
+    A["Dirección general"]
 
-    A --> B["DEPARTAMENTO DE DESARROLLO"]
-    A --> C["DEPARTAMENTO DE DISEÑO UX/UI"]
-    A --> D["DEPARTAMENTO DE SISTEMAS"]
-    A --> E["DEPARTAMENTO DE DOCUMENTACIÓN"]
-    A --> F["DEPARTAMENTO DE ADMINISTRACIÓN"]
+    A --> B["Departamento de desarrollo"]
+    A --> C["Departamento de diseño UX/UI"]
+    A --> D["Departamento de sistemas"]
+    A --> E["Departamento de documentación"]
+    A --> F["Departamento de administración"]
 
-    B --> B1["Desarrollo frontend<br/>HTML, CSS y JavaScript"]
-    B --> B2["Desarrollo backend<br/>PHP y lógica del servidor"]
-    B --> B3["Bases de datos y APIs<br/>Gestión e integración de datos"]
+    B --> B1["Frontend: desarrollo de interfaces"]
+    B --> B2["Backend: programación del servidor"]
+    B --> B3["Bases de datos y APIs"]
 
-    C --> C1["Diseño de interfaces<br/>Apariencia visual"]
-    C --> C2["Experiencia de usuario<br/>Usabilidad y accesibilidad"]
+    C --> C1["Diseño de interfaces"]
+    C --> C2["Usabilidad y accesibilidad"]
 
-    D --> D1["Despliegue<br/>Servidores y alojamiento"]
-    D --> D2["Mantenimiento y seguridad<br/>Copias de seguridad y actualizaciones"]
+    D --> D1["Despliegue y alojamiento"]
+    D --> D2["Seguridad y mantenimiento"]
 
-    E --> E1["Recopilación de información<br/>Fuentes y documentación"]
-    E --> E2["Actualización de datos<br/>Verificación y fiabilidad"]
+    E --> E1["Recopilación de información"]
+    E --> E2["Actualización y verificación de datos"]
 
-    F --> F1["Gestión económica<br/>Presupuestos y gastos"]
-    F --> F2["Gestión administrativa<br/>Facturas y obligaciones legales"]
-
-    classDef direccion fill:#264653,color:#fff,stroke:#1d3540
-    classDef departamento fill:#287271,color:#fff,stroke:#1d5554
-    classDef funciones fill:#e9f1f0,color:#222,stroke:#8aaba5
-
-    class A direccion
-    class B,C,D,E,F departamento
-    class B1,B2,B3,C1,C2,D1,D2,E1,E2,F1,F2 funciones
+    F --> F1["Gestión económica"]
+    F --> F2["Facturación y administración"]
 
 
 ## 2. Necesidades y oportunidades (CE 1c, 1d)
