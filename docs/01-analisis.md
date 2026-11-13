@@ -47,17 +47,17 @@ graph TD
 ## 2. Necesidades y oportunidades (CE 1c, 1d)
 | Prioridad | Necesidad | Fuente |
 |---|---|---|
-| Muy Alta | Consultar donde conseguir armas, warframes, y recursos | https://wiki.warframe.com/?utm_source=chatgpt.com |
-| Muy Alta | Gestionar el inventario personal | https://alecaframe.com/?utm_source=chatgpt.com |
-| Alta | Consultar probabilidades de obtencion de objetos | https://www.warframe.com/droptables?utm_source=chatgpt.com |
-| Alta | Crear y guardar consfiguariones de equipamiento | https://overframe.gg/?utm_source=chatgpt.com |
-| Baja | Facilitar comercio entre jugadores | https://warframe.market/?utm_source=chatgpt.com |
+| Muy Alta | Consultar donde conseguir armas, warframes, y recursos | https://wiki.warframe.com/ |
+| Muy Alta | Gestionar el inventario personal | https://alecaframe.com/ |
+| Alta | Consultar probabilidades de obtencion de objetos | https://www.warframe.com/droptables |
+| Alta | Crear y guardar consfiguariones de equipamiento | https://overframe.gg/ |
+| Baja | Facilitar comercio entre jugadores | https://warframe.market/ |
 
-Siendo que hay varias herramientas comunitarias demuestra el interes de la comunidad en disponer de estos servicios complementarios, siendo que segun Steam Charts se registro una media de 60.730 jugadores simultaneos en steam https://steamcharts.com/app/230410?utm_source=chatgpt.com
+Siendo que hay varias herramientas comunitarias demuestra el interes de la comunidad en disponer de estos servicios complementarios, siendo que segun Steam Charts se registro una media de 60.730 jugadores simultaneos en steam https://steamcharts.com/app/230410
 
 ## 3. Tipo de proyecto elegido (CE 1e)
 
-Tenno Hellper sera una aplicacion web que agrupe las funciones de diferentes herramientas existentes del videojuego warframe la cual permitira a los usuarios consultar un catalogo de objetos, getsion de inventario, conocer fuentes y probabilidades de obtencion, realizar un seguimiento de objetos pendientes y crear y guardar builds.
+Tenno Helper sera una aplicacion web que agrupe las funciones de diferentes herramientas existentes del videojuego warframe la cual permitira a los usuarios consultar un catalogo de objetos, getsion de inventario, conocer fuentes y probabilidades de obtencion, realizar un seguimiento de objetos pendientes y crear y guardar builds.
 
 Frente a otras opciones Tenno Helper sera una aplicacion que reunira difernetes funciones existentes esparcidas en diferentes aplicaciones web siendo una solucion completa frente al resto de herramientas comunitarias que desarrollan una unica funcion.
 
