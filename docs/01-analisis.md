@@ -118,7 +118,11 @@ Frente a otras opciones Tenno Helper sera una aplicacion que reunira difernetes 
 
 | Término | Definición | Sinónimos que NO uso |
 |---|---|---|
-| [RELLENAR] | | |
+| Tenno Helper | Aplicación web que reúne diferentes herramientas y funcionalidades de ayuda para los jugadores de Warframe. | Tenno Tools, Warframe Helper, TH | 
+| Warframe | Videojuego desarrollado por Digital Extremes en el que se basa el proyecto. | WF, el juego, videojuego | 
+| Objeto | Elemento del videojuego que aparece en el catálogo, como armas, Warframes, mods o recursos. | Ítem, artículo, elemento | 
+| Inventario | Sección personal de cada usuario donde puede registrar y gestionar los objetos que posee en el videojuego. | Colección, almacén, mochila | 
+| Build | Configuración de equipamiento de un Warframe o arma que incluye los mods seleccionados para personalizar sus características. | Montaje, setup, configuración de mods |
 
 ---
 
