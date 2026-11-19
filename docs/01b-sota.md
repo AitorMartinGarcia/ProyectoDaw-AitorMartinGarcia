@@ -20,8 +20,7 @@
 |---|---|---|---|
 | P1 | ¿Qué aplicaciones y herramientas existen actualmente para ayudar a los jugadores de Warframe?  | Google, páginas oficiales de las herramientas y tiendas de aplicaciones | 19/11/2026 |
 | P2 | ¿Qué funcionalidades ofrecen y qué necesidades de los jugadores cubren?  | Warframe Wiki, Overframe, AlecaFrame y Warframe Companion | 19/11/2026 |
-| P3 | 	
-¿Qué tecnologías y fuentes de datos pueden utilizarse para desarrollar una aplicación complementaria?  | Documentación oficial de PHP, MySQL y recursos de Warframe | 19/11/2026 |
+| P3 | ¿Qué tecnologías y fuentes de datos pueden utilizarse para desarrollar una aplicación complementaria?  | Documentación oficial de PHP, MySQL y recursos de Warframe | 19/11/2026 |
 
 ## 2. Soluciones existentes (CE 1a, 1c, 2a)
 
