@@ -84,10 +84,8 @@ Tenno Helper pretende reunir en una única aplicación web las principales funci
 
 | # | Fuente (enlace) | Tipo | Fecha de acceso | Fiabilidad (alta / media / baja) y por qué |
 |---|---|---|---|---|
-| F1 | https://overframe.gg/ | 	
-Plataforma comunitaria | 19/11/2026 | Media-alta. Permite comprobar las funciones relacionadas con las builds. |
-| F2 | https://warframe.market/ | 	
-Plataforma comunitaria | 19/11/2026 | Media-alta. Fuente directa para conocer sus funciones de comercio. |
+| F1 | https://overframe.gg/ | Plataforma comunitaria | 19/11/2026 | Media-alta. Permite comprobar las funciones relacionadas con las builds. |
+| F2 | https://warframe.market/ | 	Plataforma comunitaria | 19/11/2026 | Media-alta. Fuente directa para conocer sus funciones de comercio. |
 
 ## 8. Límites
 - No se ha realizado una prueba exhaustiva de todas las herramientas, por lo que la comparación se basa principalmente en sus características documentadas.
