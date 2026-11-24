@@ -102,15 +102,96 @@ Frente a otras opciones Tenno Helper sera una aplicacion que reunira difernetes 
 
 ## 5. Obligaciones fiscales, laborales y de prevención (CE 1g)
 
-*Las obligaciones que aplican a tu proyecto, **con su norma** y sus condiciones.*
+Debido a que Tenno Helper es una aplicación complementaria basada en el videojuego Warframe, deberá respetar los derechos de propiedad intelectual y las condiciones de uso establecidas por Digital Extremes.
+
+Entre las principales restricciones se encuentran:
+
+No cobrar por el acceso a funcionalidades o contenidos relacionados con Warframe.
+No incluir publicidad ni sistemas de monetización dentro de la aplicación.
+No aceptar patrocinios ni obtener ingresos mediante colaboraciones comerciales relacionadas con el proyecto.
+No vender recursos gráficos, modelos u otros contenidos protegidos del videojuego.
+No utilizar los logotipos oficiales de Warframe o Digital Extremes sin autorización escrita.
+Indicar claramente que Tenno Helper es un proyecto independiente y no está respaldado oficialmente por Digital Extremes.
+Respetar las licencias de los recursos externos utilizados durante el desarrollo.
+Por estas restricciones, Tenno Helper se desarrollará y distribuirá de forma completamente gratuita, sin ningún tipo de actividad comercial o monetización.
+
+Normativa y condiciones aplicables:
+
+Real Decreto Legislativo 1/1996, por el que se aprueba el texto refundido de la Ley de Propiedad Intelectual.
+Política de contenido de Digital Extremes: https://www.warframe.com/es/contentpolicy
+Acuerdo de licencia de usuario final (EULA): https://www.warframe.com/es/eula
 
 ## 6. Ayudas y subvenciones (CE 1h)
 
-*Al menos **una** ayuda real: fuente, requisitos y plazo.*
+Para una posible puesta en marcha empresarial de Tenno Helper se encontró una ayuda del Principado de Asturias destinada a fomentar la creación de proyectos empresariales innovadores.
+
+Cheque Emprendedor del Principado de Asturias
+
+Organismo convocante: Consejería de Ciencia, Industria y Empleo del Principado de Asturias.
+
+Finalidad: Favorecer la creación de iniciativas empresariales innovadoras mediante una ayuda económica destinada a personas que inicien una actividad por cuenta propia.
+
+Cuantía: 10.000 euros.
+
+Principales requisitos:
+
+Ser emprendedor, reemprendedor o continuar una actividad empresarial mediante un relevo.
+Disponer de un proyecto empresarial que haya sido monitorizado durante un mínimo de dos meses y calificado como innovador por un experto externo.
+Haberse dado de alta como trabajador autónomo entre el 1 de septiembre de 2025 y el 31 de agosto de 2026.
+Tener el domicilio fiscal en un concejo del Principado de Asturias.
+Desarrollar personalmente la actividad empresarial.
+Disponer de una página web, blog o perfil en una red social para la actividad.
+Estar al corriente de las obligaciones tributarias y con la Seguridad Social.
+
+Plazo de solicitud de la convocatoria de 2026: Desde el 14 de mayo hasta el 7 de septiembre de 2026.
+
+Estado de la convocatoria: Cerrada. Por tanto, no es posible solicitar esta ayuda en la actualidad. Se podría estudiar una futura convocatoria si se decide poner en marcha Tenno Helper como actividad empresarial y se cumplen los requisitos correspondientes.
+
+Aplicación al proyecto: Esta subvención podría resultar interesante para financiar los primeros gastos derivados de la puesta en marcha de Tenno Helper, como el alojamiento de la aplicación, el dominio, los servicios informáticos y otros recursos necesarios para su funcionamiento.
+
+Fuente oficial: https://miprincipado.asturias.es/ast/-/dboid-6269000010924999807573
 
 ## 7. Guion de trabajo (CE 1i)
 
-*Fases, hitos y responsables del proyecto. Puede enlazar al tablero de GitHub Projects.*
+El desarrollo de Tenno Helper se organizará en diferentes fases, siguiendo una metodología incremental. Cada fase tendrá unos objetivos y unos resultados que deberán completarse antes de comenzar la siguiente.
+
+### Planificación de las fases
+
+| Fase | Periodo | Tareas principales | Resultado esperado |
+|---|---|---|---|
+| 1. Análisis y documentación | 24/11/2026 - 30/11/2026 | Análisis del sector, identificación de necesidades, definición de requisitos y planificación. | Documentación inicial del proyecto. |
+| 2. Diseño del sistema | 01/12/2026 - 20/12/2026 | Diseño de la base de datos, diagramas, arquitectura de la aplicación y prototipos de interfaz. | Diseño técnico y visual. |
+| 3. Desarrollo de la estructura | 21/12/2026 - 15/01/2027 | Configuración del entorno, creación de la base de datos, desarrollo del sistema de usuarios y estructura general. | Aplicación con estructura funcional y autenticación. |
+| 4. Desarrollo de funcionalidades | 16/01/2027 - 28/02/2027 | Desarrollo del catálogo, inventario, consulta de obtención de objetos, seguimiento y creación de builds. | Funcionalidades principales implementadas. |
+| 5. Pruebas y correcciones | 01/03/2027 - 15/03/2027 | Pruebas funcionales, comprobación de requisitos, corrección de errores y pruebas de adaptación a dispositivos. | Aplicación estable y validada. |
+| 6. Documentación y entrega | 16/03/2027 - 31/03/2027 | Elaboración de la documentación final, revisión del proyecto y preparación de la entrega. | Primera versión terminada y documentada. |
+
+### Hitos del proyecto
+
+| Hito | Fecha | Descripción |
+|---|---|---|
+
+
+### Responsables
+
+| Responsable | Funciones |
+|---|---|
+| Dirección y planificación | Organizar las tareas, establecer prioridades y controlar los plazos. |
+| Desarrollo frontend | Implementar las interfaces mediante HTML5, CSS3 y JavaScript. |
+| Desarrollo backend | Implementar la lógica del servidor y las funcionalidades mediante PHP. |
+| Gestión de bases de datos | Diseñar y mantener la base de datos MySQL. |
+| Diseño UX/UI | Diseñar las interfaces y garantizar una navegación sencilla. |
+| Pruebas y documentación | Verificar el funcionamiento de la aplicación y mantener actualizada la documentación. |
+
+Al estar unicamente desarrollado por una persona el proyecto sera completamente realizado por este mismo individuo
+
+### Herramientas de organización
+
+| Herramienta | Utilidad |
+|---|---|
+| Git y GitHub | Control de versiones y almacenamiento del código fuente. |
+| Visual Studio Code | Entorno principal de desarrollo. |
+
 
 ## 8. Glosario
 
