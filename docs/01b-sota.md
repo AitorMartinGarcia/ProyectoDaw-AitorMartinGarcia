@@ -76,7 +76,7 @@ Tenno Helper pretende reunir en una única aplicación web las principales funci
 
 - **Tipo de proyecto elegido** (enlaza con el apartado 3 de [`01-analisis.md`](01-analisis.md#rf-03))
 - **Requisitos que salen del estudio** (con su ID del apartado 4 de [`01-analisis.md`](01-analisis.md#rf-04)) 
-- **Decisiones técnicas** (enlace a cada archivo de `decisiones/`): [RELLENAR]
+- **Decisiones técnicas** (enlace a cada archivo de [`decisiones/`](../decisiones/0000-plantilla.md))
 
 ## 7. Fuentes y calidad (CE 2a)
 
