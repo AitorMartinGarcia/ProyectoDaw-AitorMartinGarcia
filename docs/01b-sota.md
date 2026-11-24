@@ -56,8 +56,68 @@ Tenno Helper seguirá un modelo de servicio gratuito y sin publicidad, el objeti
 
 *Para cada decisión técnica importante (lenguaje y *framework*, base de datos, despliegue, autenticación…), compara **2-3 opciones con los mismos criterios**. Marca la que eliges.*
 
+## 4. Herramientas y tecnologías (CE 2a, 2b)
+
+Para desarrollar Tenno Helper se compararán diferentes tecnologías y herramientas teniendo en cuenta los mismos criterios: madurez, licencia, coste, curva de aprendizaje y encaje con las necesidades del proyecto.
+
+### 4.1. Lenguaje y framework frontend
+
 | Decisión | Opción | Madurez | Licencia | Coste | Curva de aprendizaje | Encaje con el ciclo | Elegida |
 |---|---|---|---|---|---|---|---|
+| Frontend | HTML5, CSS3 y JavaScript nativo | Muy alta | Estándares abiertos | Gratuito | Media | Excelente para una aplicación web adaptable y dinámica | Sí |
+| Frontend | React | Muy alta | MIT | Gratuito | Media-alta | Adecuado para interfaces complejas y reutilizables | No |
+| Frontend | Angular | Muy alta | MIT | Gratuito | Alta | Adecuado para aplicaciones grandes, pero añade complejidad | No |
+
+### 4.2. Lenguaje y framework backend
+
+| Decisión | Opción | Madurez | Licencia | Coste | Curva de aprendizaje | Encaje con el ciclo | Elegida |
+|---|---|---|---|---|---|---|---|
+| Backend | PHP nativo | Muy alta | PHP License | Gratuito | Media | Permite desarrollar las funcionalidades del servidor y conectar con MySQL | Sí |
+| Backend | PHP con Laravel | Muy alta | MIT | Gratuito | Media-alta | Facilita la creación de aplicaciones estructuradas, pero requiere aprender el framework | No |
+| Backend | Python con Django | Muy alta | BSD-3-Clause | Gratuito | Media-alta | Ofrece muchas funcionalidades integradas, pero requiere cambiar de lenguaje | No |
+
+### 4.3. Sistema de gestión de bases de datos
+
+| Decisión | Opción | Madurez | Licencia | Coste | Curva de aprendizaje | Encaje con el ciclo | Elegida |
+|---|---|---|---|---|---|---|---|
+| Base de datos | MySQL | Muy alta | GPL / comercial | Gratuito en Community Edition | Media | Adecuado para gestionar usuarios, objetos, inventarios y builds | Sí |
+| Base de datos | PostgreSQL | Muy alta | PostgreSQL License | Gratuito | Media-alta | Excelente para consultas y relaciones complejas | No |
+| Base de datos | SQLite | Muy alta | Dominio público | Gratuito | Baja | Sencillo, pero menos adecuado para una aplicación con múltiples usuarios concurrentes | No |
+
+### 4.4. Servidor web y despliegue
+
+| Decisión | Opción | Madurez | Licencia | Coste | Curva de aprendizaje | Encaje con el ciclo | Elegida |
+|---|---|---|---|---|---|---|---|
+| Servidor web | Apache | Muy alta | Apache 2.0 | Gratuito | Media | Compatible con PHP y adecuado para Tenno Helper | Sí |
+| Servidor web | Nginx | Muy alta | BSD-2-Clause | Gratuito | Media-alta | Buen rendimiento, aunque requiere mayor configuración | No |
+| Servidor web | Microsoft IIS | Muy alta | Propietaria | Depende de la edición | Media | Compatible con PHP, pero menos conveniente para el entorno elegido | No |
+| Entorno local | XAMPP | Muy alta | GPL y otras licencias | Gratuito | Baja | Facilita configurar Apache y PHP para las pruebas locales | Sí |
+| Entorno local | Docker | Muy alta | Apache 2.0 | Gratuito en su modalidad personal | Media-alta | Permite reproducir entornos, pero añade complejidad | No |
+| Entorno local | Laragon | Alta | Licencia propia | Gratuito según edición | Baja | Facilita configurar entornos PHP en Windows | No |
+
+### 4.5. Autenticación y gestión de usuarios
+
+| Decisión | Opción | Madurez | Licencia | Coste | Curva de aprendizaje | Encaje con el ciclo | Elegida |
+|---|---|---|---|---|---|---|---|
+| Autenticación | Sistema propio mediante PHP | Alta | PHP License | Gratuito | Media | Permite implementar registro, inicio de sesión y cierre de sesión adaptados al proyecto | Sí |
+| Autenticación | Firebase Authentication | Muy alta | Propietaria | Plan gratuito con límites | Baja-media | Facilita la autenticación, pero introduce una dependencia externa | No |
+| Autenticación | Auth0 | Muy alta | Propietaria | Plan gratuito con límites | Media | Ofrece autenticación externa, pero añade dependencia y posibles costes | No |
+
+Para almacenar las contraseñas se utilizarán las funciones password_hash() y password_verify() de PHP, evitando guardarlas en texto plano.
+
+### 4.6. Control de versiones y organización
+
+| Decisión | Opción | Madurez | Licencia | Coste | Curva de aprendizaje | Encaje con el ciclo | Elegida |
+|---|---|---|---|---|---|---|---|
+| Control de versiones | Git y GitHub | Muy alta | GPL-2.0 / servicio propietario | Gratuito con limitaciones | Media | Permite controlar los cambios y almacenar el código del proyecto | Sí |
+| Control de versiones | GitLab | Muy alta | Servicio propietario y componentes open source | Gratuito con limitaciones | Media | Ofrece repositorios y herramientas de integración | No |
+| Control de versiones | Subversion (SVN) | Alta | Apache 2.0 | Gratuito | Media | Permite controlar versiones, aunque es menos flexible para este proyecto | No |
+
+### 4.7. Resumen de tecnologías seleccionadas
+
+| Área | Tecnología seleccionada | Justificación |
+|---|---|---|
+
 
 
 *Cada decisión importante se convierte en una decisión registrada en [`decisiones/`](decisiones/0000-plantilla.md).*
