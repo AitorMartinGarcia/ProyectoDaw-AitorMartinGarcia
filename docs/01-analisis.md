@@ -15,7 +15,7 @@ Dentro del sector encontramos diferentes empresas/proyectos como:
 |Overframe|Proyecto comunitario especializado en warframe|Creacion, consulta, y publicaciond e builds|
 |Warframe market| Plataforma comunitaria orientada al comercio entre jugadores| Consulta de precios y ofertas de comercio|
 |AlecaFrame|Aplicacion independiente integrada en Overwolf| Gestion de inventario, seguimiento de fabricacion, reliquias y estadisticas|
-
+|Warframe Wiki | Proyecto comunitario colaborativo e independiente | Enciclopedia con información sobre armas, warframes, misiones, mods, recursos, enemigos y mecánicas del juego |
 ornanigrama:
 ```mermaid
 graph TD
@@ -170,7 +170,9 @@ El desarrollo de Tenno Helper se organizará en diferentes fases, siguiendo una 
 
 | Hito | Fecha | Descripción |
 |---|---|---|
-
+| H1 | 19/09/2026 | Analisis y documentación y diseño |
+| H2 | 21/01/2027 | Planificación, implementación, pruebas y despliegue |
+| H3 | 18/06/2027 | Seguimiento, control y cierre |
 
 ### Responsables
 
